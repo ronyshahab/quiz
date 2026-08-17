@@ -9,21 +9,21 @@ async function main() {
   const userData = [
     {
       name: "User 1",
-      email: "user1@ahmadtheswe.com",
+      email: "user1@google.com",
       totalXp: 0,
       currentStreak: 0,
       bestStreak: 0,
     },
     {
       name: "User 2",
-      email: "user2@ahmadtheswe.com",
+      email: "user2@google.com",
       totalXp: 0,
       currentStreak: 0,
       bestStreak: 0,
     },
     {
       name: "User 3",
-      email: "user3@ahmadtheswe.com",
+      email: "user3@google.com",
       totalXp: 0,
       currentStreak: 0,
       bestStreak: 0,

@@ -13,16 +13,7 @@ async function resetDatabase() {
     await prisma.userProgress.deleteMany();
     console.log("- Cleared user progress");
 
-    // await prisma.problemOption.deleteMany();
-    // console.log("- Cleared problem options");
 
-    // await prisma.problem.deleteMany();
-    // console.log("- Cleared problems");
-
-    // await prisma.lesson.deleteMany();
-    // console.log("- Cleared lessons");
-
-    // Reset user stats but keep users
     await prisma.user.updateMany({
       data: {
         totalXp: 0,
